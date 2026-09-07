@@ -54,6 +54,30 @@
         "uses:tools.file",
         "uses:tools.image"
       ]
+    },
+    {
+      "kind": "plugin",
+      "id": "artifacts",
+      "name": "Artifacts",
+      "version": "0.1.0",
+      "api": 1,
+      "description": "An artifact that runs. Attach it to any app and its agent can raise a single .html page — a calculator, a form, a little tool — in the Artifact panel, where the page's own script answers clicks. The page is served under a policy computed from its own scripts, it reaches no network, and it never reaches the model.",
+      "author": "T-R3x3r",
+      "homepage": "https://github.com/T-R3x3r/hearthscale-artifacts",
+      "license": "MIT",
+      "url": "https://github.com/T-R3x3r/hearthscale-artifacts/releases/download/0.1.0/artifacts-0.1.0.zip",
+      "sha256": "60a94778bd25eb0ab19b66f229da3c19baa7f16a78f171f0088d6298dad6a66a",
+      "bytes": 2751,
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmOWQyZSIgZD0iTTEuMTgxNjQgMTJDMi4xMjIxNSA2Ljg3OTc2IDYuNjA4MTIgMyAxMi4wMDAzIDNDMTcuMzkyNCAzIDIxLjg3ODQgNi44Nzk3NiAyMi44MTg5IDEyQzIxLjg3ODQgMTcuMTIwMiAxNy4zOTI0IDIxIDEyLjAwMDMgMjFDNi42MDgxMiAyMSAyLjEyMjE1IDE3LjEyMDIgMS4xODE2NCAxMlpNMTIuMDAwMyAxN0MxNC43NjE3IDE3IDE3LjAwMDMgMTQuNzYxNCAxNy4wMDAzIDEyQzE3LjAwMDMgOS4yMzg1OCAxNC43NjE3IDcgMTIuMDAwMyA3QzkuMjM4ODQgNyA3LjAwMDI2IDkuMjM4NTggNy4wMDAyNiAxMkM3LjAwMDI2IDE0Ljc2MTQgOS4yMzg4NCAxNyAxMi4wMDAzIDE3Wk0xMi4wMDAzIDE1QzEwLjM0MzQgMTUgOS4wMDAyNiAxMy42NTY5IDkuMDAwMjYgMTJDOS4wMDAyNiAxMC4zNDMxIDEwLjM0MzQgOSAxMi4wMDAzIDlDMTMuNjU3MSA5IDE1LjAwMDMgMTAuMzQzMSAxNS4wMDAzIDEyQzE1LjAwMDMgMTMuNjU2OSAxMy42NTcxIDE1IDEyLjAwMDMgMTVaIi8+PC9zdmc+Cg==",
+      "source": {
+        "repo": "T-R3x3r/hearthscale-artifacts",
+        "publisher": "T-R3x3r",
+        "firstPublished": "2026-09-07T23:42:59Z"
+      },
+      "facts": [
+        "publishes:artifacts",
+        "tool:artifact_show:::"
+      ]
     }
   ]
 }
