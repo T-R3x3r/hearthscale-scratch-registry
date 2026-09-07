@@ -54,6 +54,30 @@
         "uses:tools.file",
         "uses:tools.image"
       ]
+    },
+    {
+      "kind": "app",
+      "id": "scratchnote",
+      "name": "Scratch Note",
+      "version": "0.1.0",
+      "api": 1,
+      "description": "Keeps one scratch note and answers questions about it.",
+      "author": "T-R3x3r",
+      "homepage": "https://github.com/T-R3x3r/hearthscale-scratch-registry",
+      "license": "MIT",
+      "url": "https://github.com/T-R3x3r/hearthscale-scratch-registry/releases/download/0.1.0/scratchnote-0.1.0.zip",
+      "sha256": "a37243e70581dd59c9442d4f6311d4734c7465f4474641b8afd27b09cb897198",
+      "bytes": 1613,
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzNkOGJmZCIgZD0iTTIxIDh2MTIuOTkzQTEgMSAwIDAgMSAyMC4wMDcgMjJIMy45OTNBLjk5My45OTMgMCAwIDEgMyAyMS4wMDhWMi45OTJDMyAyLjQ1NSAzLjQ0OSAyIDQuMDAyIDJoMTAuOTk1TDIxIDh6bS0yIDFoLTVWNEg1djE2aDE0Vjl6TTggN2gzdjJIOFY3em0wIDRoOHYySDh2LTJ6bTAgNGg4djJIOHYtMnoiLz48L3N2Zz4K",
+      "source": {
+        "repo": "T-R3x3r/hearthscale-scratch-registry",
+        "publisher": "T-R3x3r",
+        "firstPublished": "2026-09-07T19:07:59Z"
+      },
+      "facts": [
+        "model:chat:tools:",
+        "tool:note_length:::"
+      ]
     }
   ]
 }
