@@ -1,0 +1,58 @@
+{
+  "entries": [
+    {
+      "kind": "connector",
+      "id": "github",
+      "name": "GitHub",
+      "description": "Repositories, issues, pull requests and the rest of what the GitHub MCP server serves.",
+      "homepage": "https://github.com/github/github-mcp-server",
+      "config": {
+        "transport": {
+          "kind": "http",
+          "url": "https://api.githubcopilot.com/mcp/x/all",
+          "headers": {
+            "X-MCP-Lockdown": "true"
+          }
+        },
+        "clientId": "<the Hearthscale GitHub App client id>",
+        "scope": "read:user read:org repo"
+      },
+      "source": {
+        "publisher": "hearthscale"
+      }
+    },
+    {
+      "kind": "app",
+      "id": "ash",
+      "name": "Ash",
+      "version": "0.1.0",
+      "api": 1,
+      "description": "Knowledge work over your own computer, in one chat.",
+      "author": "T-R3x3r",
+      "homepage": "https://github.com/T-R3x3r/ash",
+      "license": "MIT",
+      "url": "https://github.com/T-R3x3r/ash/releases/download/0.1.0/ash-0.1.0.zip",
+      "sha256": "eeebdde6d6fe12b9640436f47d5c0bee46b5062f6c555e90614ef3a595622966",
+      "bytes": 4284,
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmOWQyZSIgZD0iTTEyIDIzQzcuODU3ODYgMjMgNC41IDE5LjY0MjEgNC41IDE1LjVDNC41IDEzLjM0NjIgNS40MDc4NiAxMS40MDQ1IDYuODYxNzkgMTAuMDM2NkM4LjIwNDAzIDguNzczNzUgMTEuNSA2LjQ5OTUxIDExIDEuNUMxNyA1LjUgMjAgOS41IDE0IDE1LjVDMTUgMTUuNSAxNi41IDE1LjUgMTkgMTMuMDI5NkMxOS4yNjk3IDEzLjgwMzIgMTkuNSAxNC42MzQ1IDE5LjUgMTUuNUMxOS41IDE5LjY0MjEgMTYuMTQyMSAyMyAxMiAyM1oiLz48L3N2Zz4K",
+      "source": {
+        "repo": "T-R3x3r/ash",
+        "publisher": "T-R3x3r",
+        "firstPublished": "2026-09-07T18:36:12Z"
+      },
+      "facts": [
+        "model:chat:tools:images",
+        "path:~",
+        "path:~/Hearthscale/Ash",
+        "recommends:browser",
+        "tool:delegate:::",
+        "uses:exec",
+        "uses:roots",
+        "uses:sessions",
+        "uses:sessions.spawn",
+        "uses:tools.file",
+        "uses:tools.image"
+      ]
+    }
+  ]
+}
