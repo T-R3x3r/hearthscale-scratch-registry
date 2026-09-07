@@ -25,15 +25,15 @@
       "kind": "app",
       "id": "ash",
       "name": "Ash",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "api": 1,
       "description": "Knowledge work over your own computer, in one chat.",
       "author": "T-R3x3r",
       "homepage": "https://github.com/T-R3x3r/ash",
       "license": "MIT",
-      "url": "https://github.com/T-R3x3r/ash/releases/download/0.2.0/ash-0.2.0.zip",
-      "sha256": "4030c4190030b73ebf71ca1d2e8d711249454b9ea85b56fe266ab091cd6c008c",
-      "bytes": 2857,
+      "url": "https://github.com/T-R3x3r/ash/releases/download/0.3.0/ash-0.3.0.zip",
+      "sha256": "005e17d4da130f0c88cded55dfc1f8317d0b13e6110e69005384c9a122933539",
+      "bytes": 2876,
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iI2ZmOWQyZSIgZD0iTTEyIDIzQzcuODU3ODYgMjMgNC41IDE5LjY0MjEgNC41IDE1LjVDNC41IDEzLjM0NjIgNS40MDc4NiAxMS40MDQ1IDYuODYxNzkgMTAuMDM2NkM4LjIwNDAzIDguNzczNzUgMTEuNSA2LjQ5OTUxIDExIDEuNUMxNyA1LjUgMjAgOS41IDE0IDE1LjVDMTUgMTUuNSAxNi41IDE1LjUgMTkgMTMuMDI5NkMxOS4yNjk3IDEzLjgwMzIgMTkuNSAxNC42MzQ1IDE5LjUgMTUuNUMxOS41IDE5LjY0MjEgMTYuMTQyMSAyMyAxMiAyM1oiLz48L3N2Zz4K",
       "source": {
         "repo": "T-R3x3r/ash",
@@ -44,6 +44,7 @@
         "model:chat:tools:images",
         "path:~",
         "path:~/Hearthscale/Ash",
+        "recommends:artifacts",
         "recommends:browser",
         "recommends:schedules",
         "tool:delegate:::",
@@ -74,10 +75,7 @@
         "publisher": "T-R3x3r",
         "firstPublished": "2026-09-07T23:42:59Z"
       },
-      "facts": [
-        "publishes:artifacts",
-        "tool:artifact_show:::"
-      ]
+      "facts": ["publishes:artifacts", "tool:artifact_show:::"]
     }
   ]
 }
