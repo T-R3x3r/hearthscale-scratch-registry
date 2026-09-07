@@ -59,15 +59,15 @@
       "kind": "app",
       "id": "scratchnote",
       "name": "Scratch Note",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "api": 1,
       "description": "Keeps one scratch note and answers questions about it.",
       "author": "T-R3x3r",
       "homepage": "https://github.com/T-R3x3r/hearthscale-scratch-registry",
       "license": "MIT",
-      "url": "https://github.com/T-R3x3r/hearthscale-scratch-registry/releases/download/0.1.0/scratchnote-0.1.0.zip",
-      "sha256": "a37243e70581dd59c9442d4f6311d4734c7465f4474641b8afd27b09cb897198",
-      "bytes": 1613,
+      "url": "https://github.com/T-R3x3r/hearthscale-scratch-registry/releases/download/0.2.0/scratchnote-0.2.0.zip",
+      "sha256": "1a510362116f72c1d8e0af793dbf29f15261131918d4be82cbbf2f9b963c62d0",
+      "bytes": 1630,
       "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzNkOGJmZCIgZD0iTTIxIDh2MTIuOTkzQTEgMSAwIDAgMSAyMC4wMDcgMjJIMy45OTNBLjk5My45OTMgMCAwIDEgMyAyMS4wMDhWMi45OTJDMyAyLjQ1NSAzLjQ0OSAyIDQuMDAyIDJoMTAuOTk1TDIxIDh6bS0yIDFoLTVWNEg1djE2aDE0Vjl6TTggN2gzdjJIOFY3em0wIDRoOHYySDh2LTJ6bTAgNGg4djJIOHYtMnoiLz48L3N2Zz4K",
       "source": {
         "repo": "T-R3x3r/hearthscale-scratch-registry",
@@ -76,6 +76,7 @@
       },
       "facts": [
         "model:chat:tools:",
+        "network:api.example.com",
         "tool:note_length:::"
       ]
     }
