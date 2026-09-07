@@ -58,13 +58,13 @@
     {
       "kind": "app",
       "version": "0.1.0",
-      "api": 1,
       "author": "T-R3x3r",
       "homepage": "https://github.com/T-R3x3r/hearthscale-scratch-registry",
       "license": "MIT",
       "url": "https://github.com/T-R3x3r/hearthscale-scratch-registry/releases/download/0.1.0/scratchnote-0.1.0.zip",
       "sha256": "a37243e70581dd59c9442d4f6311d4734c7465f4474641b8afd27b09cb897198",
       "bytes": 1613,
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzNkOGJmZCIgZD0iTTIxIDh2MTIuOTkzQTEgMSAwIDAgMSAyMC4wMDcgMjJIMy45OTNBLjk5My45OTMgMCAwIDEgMyAyMS4wMDhWMi45OTJDMyAyLjQ1NSAzLjQ0OSAyIDQuMDAyIDJoMTAuOTk1TDIxIDh6bS0yIDFoLTVWNEg1djE2aDE0Vjl6TTggN2gzdjJIOFY3em0wIDRoOHYySDh2LTJ6bTAgNGg4djJIOHYtMnoiLz48L3N2Zz4K",
       "source": {
         "repo": "T-R3x3r/hearthscale-scratch-registry",
         "publisher": "T-R3x3r",
@@ -74,21 +74,21 @@
         "model:chat:tools:",
         "tool:note_length:::"
       ],
-      "id": "iconjs",
-      "name": "Icon JavaScript",
-      "description": "Its row names a javascript: URL where a picture belongs.",
-      "icon": "javascript:window.__hsIconRan = true"
+      "id": "apihigh",
+      "name": "Api Above",
+      "api": 2,
+      "description": "One major above the host."
     },
     {
       "kind": "app",
       "version": "0.1.0",
-      "api": 1,
       "author": "T-R3x3r",
       "homepage": "https://github.com/T-R3x3r/hearthscale-scratch-registry",
       "license": "MIT",
       "url": "https://github.com/T-R3x3r/hearthscale-scratch-registry/releases/download/0.1.0/scratchnote-0.1.0.zip",
       "sha256": "a37243e70581dd59c9442d4f6311d4734c7465f4474641b8afd27b09cb897198",
       "bytes": 1613,
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0iIzNkOGJmZCIgZD0iTTIxIDh2MTIuOTkzQTEgMSAwIDAgMSAyMC4wMDcgMjJIMy45OTNBLjk5My45OTMgMCAwIDEgMyAyMS4wMDhWMi45OTJDMyAyLjQ1NSAzLjQ0OSAyIDQuMDAyIDJoMTAuOTk1TDIxIDh6bS0yIDFoLTVWNEg1djE2aDE0Vjl6TTggN2gzdjJIOFY3em0wIDRoOHYySDh2LTJ6bTAgNGg4djJIOHYtMnoiLz48L3N2Zz4K",
       "source": {
         "repo": "T-R3x3r/hearthscale-scratch-registry",
         "publisher": "T-R3x3r",
@@ -98,10 +98,10 @@
         "model:chat:tools:",
         "tool:note_length:::"
       ],
-      "id": "iconscript",
-      "name": "Icon Script",
-      "description": "Its row carries an SVG with an inline script.",
-      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHNjcmlwdD53aW5kb3cuX19oc0ljb25SYW4gPSB0cnVlOzwvc2NyaXB0PjxjaXJjbGUgY3g9IjEyIiBjeT0iMTIiIHI9IjEwIiBmaWxsPSIjZTExZDQ4Ii8+PC9zdmc+"
+      "id": "apilow",
+      "name": "Api Below",
+      "api": 0,
+      "description": "One major below the host."
     }
   ]
 }
