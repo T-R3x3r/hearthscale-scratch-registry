@@ -11,7 +11,8 @@
           "kind": "http",
           "url": "https://api.githubcopilot.com/mcp/x/all",
           "headers": {
-            "X-MCP-Lockdown": "true"
+            "X-MCP-Lockdown": "true",
+            "X-Registry-Edit": "changed"
           }
         },
         "clientId": "<the Hearthscale GitHub App client id>",
