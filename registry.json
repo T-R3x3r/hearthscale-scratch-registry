@@ -11,12 +11,11 @@
           "kind": "http",
           "url": "https://api.githubcopilot.com/mcp/x/all",
           "headers": {
-            "X-MCP-Lockdown": "true",
-            "X-Registry-Edit": "changed"
+            "X-MCP-Lockdown": "true"
           }
         },
         "clientId": "<the Hearthscale GitHub App client id>",
-        "scope": "read:user read:org"
+        "scope": "read:user read:org repo"
       },
       "source": {
         "publisher": "hearthscale"
